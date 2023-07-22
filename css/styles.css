@@ -5,7 +5,7 @@
   --cloud: #f4f4fd;
   --iris: #4d5ae5;
   --ocean: #404bbf;
-  --cornflover: #E7E9FC;
+  --cornflover: #e7e9fc;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 .header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
-  border: 2px solid var(--cornflover);
+  border-bottom: 1px solid var(--cornflover);
 }
 
 .header-logo {
@@ -32,6 +32,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -80,13 +81,15 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+}
+
+.header-menu-item {
   padding: 24px 0;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  
 }
 
 .header-navigation {
@@ -155,12 +158,8 @@ img {
 }
 
 .main-section {
-  padding-bottom: 120px;
-}
-
-.main-wrap {
   background-color: var(--navyblue);
-  padding: 188px 472px 292px;
+  padding: 188px 0;
   width: 100%;
 }
 
@@ -177,6 +176,8 @@ img {
 
 .button-order {
   display: block;
+  min-width: 169px;
+  height: 56px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   color: var(--white, #fff);
@@ -188,6 +189,7 @@ img {
   cursor: pointer;
   margin-top: 48px;
   padding: 16px 32px;
+  border: none;
   border-radius: 4px;
   align-items: flex-start;
 }
@@ -201,13 +203,21 @@ img {
   background: var(--ocean, #404bbf);
 }
 
+.second-section {
+  padding: 120px 0;
+}
+
+.third-section {
+  padding-bottom: 120px;
+}
+
 .business-strategies {
   display: flex;
   gap: 24px;
 }
 
 .menu-item {
-  width: calc((100% - 3 * 24px)/4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .name-menu-item {
@@ -233,8 +243,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-top: 120px; */
+  margin-bottom: 72px;
 }
 
 .services-list {
@@ -243,9 +253,9 @@ img {
   padding-bottom: 120px;
 }
 
-.members-team {
+.fourth-section {
   background-color: var(--cloud);
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .card-image {
@@ -259,16 +269,18 @@ img {
 
 .team-members-item {
   background-color: var(--white);
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-item-team {
   background-color: var(--white);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   margin: 0;
 }
 
 .by-line {
-  padding: 32px 16px;
+  padding: 32px 0px;
   margin: 0;
   text-align: center;
   border: 1px solid var(--cornflower);
@@ -279,7 +291,19 @@ img {
 
 .footer {
   background-color: var(--navyblue);
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -298,14 +322,15 @@ img {
 
 /* PAGE 2 */
 
-.button-list {
-  padding: 96px 260px 72px;
-  /* padding-top: 96px;
-  padding-bottom: 72px; */
-  display: flex;
-  gap: 24px;
-  align-items: center;
+.section-portfolio {
+  padding: 96px 0 120px 0;
+}
 
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .button-item {
@@ -341,9 +366,10 @@ img {
 
 .by-line-portf {
   padding: 32px 16px;
-  margin: 0; 
+  border: 1px solid var(--cornflower);
+  margin: 0;
 }
 
 .card-portf {
-  border: 1px solid var(--cornflower);
+  width: calc((100% - 48px) / 3);
 }
