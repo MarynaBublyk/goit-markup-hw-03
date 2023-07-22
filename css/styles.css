@@ -83,7 +83,7 @@ img {
   gap: 40px;
 }
 
-.header-menu-item {
+.header-item {
   padding: 24px 0;
 }
 
@@ -276,7 +276,6 @@ img {
 .name-item-team {
   background-color: var(--white);
   margin-bottom: 8px;
-  margin: 0;
 }
 
 .by-line {
