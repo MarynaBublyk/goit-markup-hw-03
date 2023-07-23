@@ -96,7 +96,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  gap: 76px;
 }
 
 .header-item {
@@ -208,7 +207,6 @@ img {
 }
 
 .third-section {
-  padding-bottom: 120px;
 }
 
 .business-strategies {
@@ -302,7 +300,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
