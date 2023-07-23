@@ -207,6 +207,12 @@ img {
 }
 
 .third-section {
+  padding-bottom: 120px;
+}
+
+.fourth-section {
+  background-color: var(--cloud);
+  padding: 120px 0;
 }
 
 .business-strategies {
@@ -251,10 +257,7 @@ img {
   padding-bottom: 120px;
 }
 
-.fourth-section {
-  background-color: var(--cloud);
-  padding: 120px 0;
-}
+
 
 .card-image {
   margin: 0;
@@ -293,6 +296,7 @@ img {
 
 .footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -313,7 +317,6 @@ img {
   letter-spacing: 0.02em;
   background-color: var(--navyblue, #2e2f42);
   width: 264px;
-  padding-top: 16px;
 }
 
 /* PAGE 2 */
