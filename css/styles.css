@@ -254,10 +254,7 @@ img {
 .services-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
-
-
 
 .card-image {
   margin: 0;
